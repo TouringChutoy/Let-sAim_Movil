@@ -1,0 +1,64 @@
+{
+    "Items": [
+        {
+            "nameitem": "Reborn",
+            "moneyGame": 500,
+            "description": "Morido",
+            "desbloquedo": false
+        },
+        {
+            "nameitem": "Death",
+            "moneyGame": 1000,
+            "description": "Muerte",
+            "desbloquedo": false
+        },
+        {
+            "nameitem": "Jumper",
+            "moneyGame": 2000,
+            "description": "Saltador",
+            "desbloquedo": false
+        },
+        {
+            "nameitem": "Knight",
+            "moneyGame": 2500,
+            "description": "Caballero",
+            "desbloquedo": false
+        },
+        {
+            "nameitem": "Robot",
+            "moneyGame": 3000,
+            "description": "Robot",
+            "desbloquedo": false
+        },
+        {
+            "nameitem": "Slime",
+            "moneyGame": 4000,
+            "description": "Slime",
+            "desbloquedo": false
+        },
+        {
+            "nameitem": "Neko",
+            "moneyGame": 5000,
+            "description": "Neko",
+            "desbloquedo": false
+        },
+        {
+            "nameitem": "Chiken",
+            "moneyGame": 6000,
+            "description": "Pollito",
+            "desbloquedo": false
+        },
+        {
+            "nameitem": "Cow",
+            "moneyGame": 7000,
+            "description": "Vaca",
+            "desbloquedo": false
+        },
+        {
+            "nameitem": "Samurai",
+            "moneyGame": 10000,
+            "description": "Samurai",
+            "desbloquedo": false
+        }
+    ]
+}
