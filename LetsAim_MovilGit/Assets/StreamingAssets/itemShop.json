@@ -3,7 +3,7 @@
         {
             "nameitem": "Reborn",
             "moneyGame": 500,
-            "description": "Morido",
+            "description": "Renacido",
             "desbloquedo": false
         },
         {
@@ -43,15 +43,15 @@
             "desbloquedo": false
         },
         {
-            "nameitem": "Chiken",
+            "nameitem": "Duck",
             "moneyGame": 6000,
-            "description": "Pollito",
+            "description": "Pato",
             "desbloquedo": false
         },
         {
-            "nameitem": "Cow",
+            "nameitem": "Ferret",
             "moneyGame": 7000,
-            "description": "Vaca",
+            "description": "Huron",
             "desbloquedo": false
         },
         {
