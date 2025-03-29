@@ -1,64 +1,64 @@
 {
     "Items": [
         {
-            "nameitem": "Reborn",
-            "moneyGame": 500,
-            "description": "Renacido",
-            "desbloquedo": false
+            "id": "Reborn",
+            "price": 500,
+            "displayName": "Renacido",
+            "unlocked": false
         },
         {
-            "nameitem": "Death",
-            "moneyGame": 1000,
-            "description": "Muerte",
-            "desbloquedo": false
+            "id": "Death",
+            "price": 1000,
+            "displayName": "Muerte",
+            "unlocked": false
         },
         {
-            "nameitem": "Jumper",
-            "moneyGame": 2000,
-            "description": "Saltador",
-            "desbloquedo": false
+            "id": "Jumper",
+            "price": 2000,
+            "displayName": "Saltador",
+            "unlocked": false
         },
         {
-            "nameitem": "Knight",
-            "moneyGame": 2500,
-            "description": "Caballero",
-            "desbloquedo": false
+            "id": "Knight",
+            "price": 2500,
+            "displayName": "Caballero",
+            "unlocked": false
         },
         {
-            "nameitem": "Robot",
-            "moneyGame": 3000,
-            "description": "Robot",
-            "desbloquedo": false
+            "id": "Robot",
+            "price": 3000,
+            "displayName": "Robot",
+            "unlocked": false
         },
         {
-            "nameitem": "Slime",
-            "moneyGame": 4000,
-            "description": "Slime",
-            "desbloquedo": false
+            "id": "Erizo",
+            "price": 4000,
+            "displayName": "Erizo",
+            "unlocked": false
         },
         {
-            "nameitem": "Neko",
-            "moneyGame": 5000,
-            "description": "Neko",
-            "desbloquedo": false
+            "id": "Neko",
+            "price": 5000,
+            "displayName": "Neko",
+            "unlocked": false
         },
         {
-            "nameitem": "Duck",
-            "moneyGame": 6000,
-            "description": "Pato",
-            "desbloquedo": false
+            "id": "Duck",
+            "price": 6000,
+            "displayName": "Pato",
+            "unlocked": false
         },
         {
-            "nameitem": "Ferret",
-            "moneyGame": 7000,
-            "description": "Huron",
-            "desbloquedo": false
+            "id": "Ferret",
+            "price": 7000,
+            "displayName": "Huron",
+            "unlocked": false
         },
         {
-            "nameitem": "Samurai",
-            "moneyGame": 10000,
-            "description": "Samurai",
-            "desbloquedo": false
+            "id": "Samurai",
+            "price": 10000,
+            "displayName": "Samurai",
+            "unlocked": false
         }
     ]
 }

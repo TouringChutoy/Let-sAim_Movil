@@ -5,14 +5,14 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public Transform personaje;
-    public float tamañoCamara;
+    public float tamanoCamara;
     public float alturaPantalla;
     
     // Start is called before the first frame update
     void Start()
     {
-        tamañoCamara = Camera.main.orthographicSize;
-        alturaPantalla = tamañoCamara * 2;
+        tamanoCamara = Camera.main.orthographicSize;
+        alturaPantalla = tamanoCamara * 2;
     }
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class CameraController : MonoBehaviour
     void CalcularPosicionCamara()
     {
         int pantallaPersonaje = (int)(personaje.position.y / alturaPantalla);
-        float alturaCamara = (pantallaPersonaje * alturaPantalla) + tamañoCamara;
+        float alturaCamara = (pantallaPersonaje * alturaPantalla) + tamanoCamara;
 
         transform.position = new Vector3(transform.position.x, alturaCamara, transform.position.z);
     }

@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 52db004148798ed40b93f86dd0ba4778
   - enabled: 1
+    path: Assets/Scenes/SkinsSelector.unity
+    guid: 80b484a94d0b2624bbded4350902725b
+  - enabled: 1
     path: Assets/Scenes/Nivel1.unity
     guid: d999b9c408384124ab6291cb2dc57bd2
   - enabled: 1
