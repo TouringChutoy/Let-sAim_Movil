@@ -4,16 +4,16 @@ using UnityEngine;
 [Serializable]
 public class ShopItems
 {
-    public string nameitem;
-    public int moneyGame;
-    public string description;
-    public bool desbloquedo;
+    public string id;
+    public int price;
+    public string displayName;
+    public bool unlocked;
 
-    public ShopItems (string nameitem, int moneyGame, string description, bool desbloquedo)
+    public ShopItems (string id, int price, string displayName, bool unlocked)
     {
-        this.nameitem = nameitem;
-        this.moneyGame = moneyGame;
-        this.description = description;
-        this.desbloquedo = desbloquedo;
+        this.id = id;
+        this.price = price;
+        this.displayName = displayName;
+        this.unlocked = unlocked;
     }
 }

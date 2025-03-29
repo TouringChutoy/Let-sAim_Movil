@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 659657d693dd951498089f0a9c99ec1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidadPuntos: 100
+  cantidadPuntos: 10
   puntaje: {fileID: 0}
 --- !u!58 &5663674495985341431
 CircleCollider2D:

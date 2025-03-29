@@ -9,15 +9,15 @@ public class SaveManager : MonoBehaviour
     {
         string path = Application.streamingAssetsPath + "/itemShop.json";
 
-        ShopItems skin1 = new ShopItems("Reborn", 500, "Morido", false);
+        ShopItems skin1 = new ShopItems("Reborn", 500, "Renacido", false);
         ShopItems skin2 = new ShopItems("Death", 1000, "Muerte", false);
         ShopItems skin3 = new ShopItems("Jumper", 2000, "Saltador", false);
         ShopItems skin4 = new ShopItems("Knight", 2500, "Caballero", false);
         ShopItems skin5 = new ShopItems("Robot", 3000, "Robot", false);
-        ShopItems skin6 = new ShopItems("Slime", 4000, "Slime", false);
+        ShopItems skin6 = new ShopItems("Erizo", 4000, "Erizo", false);
         ShopItems skin7 = new ShopItems("Neko", 5000, "Neko", false);
-        ShopItems skin8 = new ShopItems("Chiken", 6000, "Pollito", false);
-        ShopItems skin9 = new ShopItems("Cow", 7000, "Vaca", false);
+        ShopItems skin8 = new ShopItems("Duck", 6000, "Pato", false);
+        ShopItems skin9 = new ShopItems("Ferret", 7000, "Huron", false);
         ShopItems skin10 = new ShopItems("Samurai", 10000, "Samurai", false);
 
 

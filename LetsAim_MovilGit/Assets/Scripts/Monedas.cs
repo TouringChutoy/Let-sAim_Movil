@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Monedas : MonoBehaviour
 {
-    [SerializeField] private float cantidadPuntos;
+    [SerializeField] private int cantidadPuntos;
     [SerializeField] private Puntaje puntaje;
 
     private void OnTriggerEnter2D(Collider2D collision)
