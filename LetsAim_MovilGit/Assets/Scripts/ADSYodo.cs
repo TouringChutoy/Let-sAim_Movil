@@ -13,6 +13,18 @@ public class ADSYodo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        int age = Yodo1U3dMas.GetUserAge();
+
+        int attStatus = Yodo1U3dMas.GetAttrackingStatus();
+        switch (attStatus)
+        {
+            case Yodo1U3dAttrackingStatus.NotDetermined: break;
+            case Yodo1U3dAttrackingStatus.Restricted: break;
+            case Yodo1U3dAttrackingStatus.Denied: break;
+            case Yodo1U3dAttrackingStatus.Authorized: break;
+            case Yodo1U3dAttrackingStatus.SystemLow: break;  // iOS version below 14
+        }
+
         Yodo1AdBuildConfig config = new Yodo1AdBuildConfig().enableUserPrivacyDialog(true);
 
         // Update the agreement link
@@ -36,17 +48,6 @@ public class ADSYodo : MonoBehaviour
     }
 };
 
-        int age = Yodo1U3dMas.GetUserAge();
-
-        int attStatus = Yodo1U3dMas.GetAttrackingStatus();
-        switch (attStatus)
-        {
-            case Yodo1U3dAttrackingStatus.NotDetermined: break;
-            case Yodo1U3dAttrackingStatus.Restricted: break;
-            case Yodo1U3dAttrackingStatus.Denied: break;
-            case Yodo1U3dAttrackingStatus.Authorized: break;
-            case Yodo1U3dAttrackingStatus.SystemLow: break;  // iOS version below 14
-        }
     }
 
     private void SetupEventCallbacks()
@@ -104,7 +105,7 @@ public class ADSYodo : MonoBehaviour
     public void ShowReward()
     {
         bool isLoaded = Yodo1U3dRewardAd.GetInstance().IsLoaded();
-        if(isLoaded) Yodo1U3dRewardAd.GetInstance().ShowAd();
+        if (isLoaded) Yodo1U3dRewardAd.GetInstance().ShowAd();
     }
 
 }

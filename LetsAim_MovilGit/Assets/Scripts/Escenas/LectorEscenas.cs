@@ -48,14 +48,9 @@ public class LectorEscenas : MonoBehaviour
         SceneManager.LoadScene(5);
     }
 
-    public void Shop()
-    {
-        SceneManager.LoadScene(6);
-    }
-
     public void Creditos()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(6);
     }
 
     public void Salir()
