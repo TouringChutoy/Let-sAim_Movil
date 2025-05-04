@@ -46,6 +46,7 @@ public class Dialogue : MonoBehaviour
             if(!didDialogueStart)
             {
                 StartDialogue();
+                AchievementManager.Instance.PrimerDialogo();
             }
             else if(dialogueText.text == dialogueLines[lineIndex]){
                 NextDialogueLine();

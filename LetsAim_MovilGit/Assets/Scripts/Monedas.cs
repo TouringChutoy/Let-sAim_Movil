@@ -11,6 +11,7 @@ public class Monedas : MonoBehaviour
     {
         puntaje.SumarPuntos(cantidadPuntos);
         if(collision.CompareTag("Player")){
+            AchievementManager.Instance.PrimerMoneda();
             Destroy(gameObject);
         }
     }

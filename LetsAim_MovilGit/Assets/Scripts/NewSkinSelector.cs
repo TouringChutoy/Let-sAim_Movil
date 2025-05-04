@@ -90,7 +90,7 @@ public class NewSkinSelector : MonoBehaviour
         {
             playerCoins -= currentSkin.price;
             PlayerPrefs.SetInt("PuntajeGuardado", playerCoins);
-
+            AchievementManager.Instance.PrimerSkin();
             // Desbloquea la skin actualizando el estado en memoria y, para skins de pago, en PlayerPrefs.
             currentSkin.unlocked = true;
             PlayerPrefs.Save();

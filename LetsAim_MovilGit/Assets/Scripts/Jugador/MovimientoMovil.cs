@@ -57,7 +57,7 @@ public class MovimientoMovil : MonoBehaviour
     {
         if (sePuedeMover)
         {
-        movimientoHorizontal = entradaMovimientos.Movimiento.Horizontal.ReadValue<float>() * velocidadMovimiento;
+            movimientoHorizontal = entradaMovimientos.Movimiento.Horizontal.ReadValue<float>() * velocidadMovimiento;
         }
 
     }
@@ -74,6 +74,12 @@ public class MovimientoMovil : MonoBehaviour
         Mover(movimientoHorizontal * Time.fixedDeltaTime, salto);
 
         salto = false;
+    }
+
+    private void LateUpdate()
+    {
+        animator.SetFloat("Move", Mathf.Abs(Input.GetAxis("Horizontal")));
+        //spriteRenderer.flipX = (Input.GetAxis("Horizontal") < 0);
     }
 
     private void Mover(float mover, bool saltar)
@@ -111,7 +117,7 @@ public class MovimientoMovil : MonoBehaviour
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
     }
 
-        public void Rebote(Vector2 puntoGolpe)
+    public void Rebote(Vector2 puntoGolpe)
     {
         rb2D.linearVelocity = new Vector2(-velocidadRebote.x * puntoGolpe.x, velocidadRebote.y);
     }

@@ -36,6 +36,9 @@ dependencyResolutionManagement {
         maven {
             url "https://artifacts.applovin.com/android/beta/" // Assets/Yodo1/MAS/Editor/Dependencies/Yodo1MasAndroidDependencies.xml:11
         }
+        maven {
+            url (unityProjectPath + "/Assets/GooglePlayGames/com.google.play.games/Editor/m2repository") // Assets/GooglePlayGames/com.google.play.games/Editor/GooglePlayGamesPluginDependencies.xml:11
+        }
         mavenLocal()
 // Android Resolver Repos End
         flatDir {

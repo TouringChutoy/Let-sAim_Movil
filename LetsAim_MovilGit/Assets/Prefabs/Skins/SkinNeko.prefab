@@ -216,7 +216,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   controladorSuelo: {fileID: 7926609002199078157}
-  dimensionesCaja: {x: 0.31, y: 0.29, z: 1}
+  dimensionesCaja: {x: 0.37, y: 0.29, z: 1}
   enSuelo: 0
   velocidadRebote: {x: 3, y: 0}
   sePuedeMover: 1

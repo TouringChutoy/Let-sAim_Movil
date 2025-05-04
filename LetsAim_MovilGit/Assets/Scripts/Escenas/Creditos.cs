@@ -10,6 +10,7 @@ public class Creditos : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             SceneManager.LoadScene("Creditos");
+            AchievementManager.Instance.TerminaNivel3();
         }
     }
 }

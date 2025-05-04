@@ -596,6 +596,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 696687972}
   m_CullTransparentMesh: 1
+--- !u!1 &728463626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 728463628}
+  - component: {fileID: 728463627}
+  m_Layer: 0
+  m_Name: AchivementManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &728463627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728463626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf1cd0f4c993434cb96fdeda2fae097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievements:
+  - achivementKey: Terminaelnivel1
+    achievementID: CgkIu42z3rAdEAIQAQ
+    isIncremental: 0
+  - achivementKey: Terminaelnivel2
+    achievementID: CgkIu42z3rAdEAIQAg
+    isIncremental: 0
+  - achivementKey: Terminaelnivel3
+    achievementID: CgkIu42z3rAdEAIQAw
+    isIncremental: 0
+  - achivementKey: Primerdialogo
+    achievementID: CgkIu42z3rAdEAIQBA
+    isIncremental: 0
+  - achivementKey: Primerskin
+    achievementID: CgkIu42z3rAdEAIQBQ
+    isIncremental: 0
+  - achivementKey: Primermoneda
+    achievementID: CgkIu42z3rAdEAIQBg
+    isIncremental: 0
+  - achivementKey: 500Monedas
+    achievementID: CgkIu42z3rAdEAIQBw
+    isIncremental: 0
+  - achivementKey: 1000Monedas
+    achievementID: CgkIu42z3rAdEAIQBQ
+    isIncremental: 0
+  - achivementKey: 1500Monedas
+    achievementID: CgkIu42z3rAdEAIQCQ
+    isIncremental: 0
+  - achivementKey: 2000Monedas
+    achievementID: CgkIu42z3rAdEAIQCg
+    isIncremental: 0
+  - achivementKey: 2500Monedas
+    achievementID: CgkIu42z3rAdEAIQCw
+    isIncremental: 0
+  - achivementKey: 3000Monedas
+    achievementID: CgkIu42z3rAdEAIQDA
+    isIncremental: 0
+  - achivementKey: 4000Monedas
+    achievementID: CgkIu42z3rAdEAIQDQ
+    isIncremental: 0
+  - achivementKey: 5000Monedas
+    achievementID: CgkIu42z3rAdEAIQDg
+    isIncremental: 0
+  - achivementKey: 10000Monedas
+    achievementID: CgkIu42z3rAdEAIQDw
+    isIncremental: 0
+--- !u!4 &728463628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728463626}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &863445028
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,6 +725,50 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 205.54027, y: 130.89607, z: 1.1234727}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &874107477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 874107479}
+  - component: {fileID: 874107478}
+  m_Layer: 0
+  m_Name: GPGS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &874107478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874107477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad3088ab0c0f0447a3d1a1725bc4464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &874107479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874107477}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1834,3 +1968,5 @@ SceneRoots:
   - {fileID: 2055134409}
   - {fileID: 1425417678}
   - {fileID: 863445030}
+  - {fileID: 874107479}
+  - {fileID: 728463628}
