@@ -1,12 +1,10 @@
 using UnityEngine;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
-
 public class GPGSManager : MonoBehaviour
 {
     public static GPGSManager Instance { get; private set; }
     private bool isAuthenticated = false;
-
     private void Awake()
     {
         if (Instance == null)
@@ -24,7 +22,6 @@ public class GPGSManager : MonoBehaviour
     private void InitializeGPGS()
     {
         PlayGamesPlatform.DebugLogEnabled = true;
-        // PlayGamesPlatform.Activate();
         PlayGamesPlatform.Instance.Authenticate(OnSignInResult);
     }
 
